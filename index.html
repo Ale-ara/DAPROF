@@ -986,7 +986,7 @@
 
                         <div class="check-box">
                             <input id="confirmar_saida" name="confirmar_saida" type="checkbox" value= null onchange="ValidaCheckBox('confirmar_saida')">     
-                                <label id="confirmar_saida_lb" for="confirmar_saida">Li e concordo com as normas de saída descritas no Código de Conduta e Ética da Comissão de Desenvolvimento Cultural.</label><br>
+                                <label id="confirmar_saida_lb" for="confirmar_saida">Li e concordo com as normas de saída descritas no Regimento Interno.</label><br>
                         </div>
                         <div class="button">
                             <input type="submit" id="enviar_saida" value="Enviar">
@@ -1463,7 +1463,7 @@ function fill_saida(e){
                 "[b]Nickname:[/b] " + $('#nickname_saída').val() + "\n" +
                 "[b]Permissão:[/b] " + $('#permissão_saída').val() + "\n" +
                 "[b]Motivo:[/b] " + $('#motivo_saida').val() + "\n" +
-                "\n[b]✓[/b] Li e concordo com as normas de saída descritas no Código de Conduta e Ética da Comissão de Desenvolvimento Cultural.[/font]";         
+                "\n[b]✓[/b] Li e concordo com as normas de saída descritas no Regimento Intenro.[/font]";         
             $('#fa-generated-message').val(texto);
             send_data('saidas_honrosas');
         }else{alert('Preencha todos os campos!')}
